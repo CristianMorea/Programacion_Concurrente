@@ -10,11 +10,12 @@ public class Principal implements Runnable
 	public void run() 
 	{
 		
-		//SECCION CRITICA CONTROLADA
-		for(int i=0; i< 20;i++)
+		synchronized (object)//ACTIVO:H1  COLA:H4, H3 
 		{
-			synchronized (object)//ACTIVO:H1  COLA:H4, H3 
-			{
+		//SECCION CRITICA CONTROLADA
+		for(int i=0; i< 2000;i++)
+		{
+			
 				cont ++;
 			}
 		}
