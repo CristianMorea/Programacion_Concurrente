@@ -1,6 +1,6 @@
 package Concurrencia_Ejemplos;
 
-<<<<<<< HEAD
+
 
 //PARA LANZAR ILOS SE HACE DESDE OBJETOS QUE HEREDAN DE THREAD
 // CON STARD SE LANZA LOS HILOS
@@ -39,13 +39,13 @@ public class Principal extends Thread{
 	}
 
 
-=======
-public class Principal {
+public class principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
 
->>>>>>> 6312ddade79cabd99892db6e576ed9b880fd28c4
+
+}
 }
