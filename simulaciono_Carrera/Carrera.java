@@ -3,7 +3,7 @@ package simulaciono_Carrera;
 import java.util.concurrent.CyclicBarrier;
 
 public class Carrera {
-	 public static int distancia = 100; // Distancia de la carrera
+	 public static int distancia = 10; // Distancia de la carrera
 
 	    public static void main(String[] args) {
 	        int numCorredores = 3; // Cantidad de corredores

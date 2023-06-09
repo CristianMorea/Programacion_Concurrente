@@ -20,7 +20,7 @@ public class Corredor extends Thread {
             // Avance del corredor
             while (posicion < Carrera.distancia) {
                 // Simulación de avance
-                Thread.sleep(100);
+            	Thread.sleep(100);
                 posicion++;
                 System.out.println(nombre + " ha avanzado a la posición " + posicion);
             }
